@@ -1,0 +1,84 @@
+{
+  "uid" : "50b24cc1fdf3655a",
+  "name" : "TestRih.test_statuscode",
+  "fullName" : "Test_relenishinfohis.TestRih.test_statuscode",
+  "historyId" : "110d5c04638e5a5dab53734eb337cd84",
+  "time" : {
+    "start" : 1530785457628,
+    "stop" : 1530785457943,
+    "duration" : 315
+  },
+  "description" : "\nCreated on 2018-07-04\n@author: Raymen\nProject: 使用Pytest框架编写接口测试\n",
+  "descriptionHtml" : "<p>Created on 2018-07-04\n@author: Raymen\nProject: 使用Pytest框架编写接口测试</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 100\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response",
+  "statusTrace" : "self = <Test_relenishinfohis.TestRih object at 0x10a479860>\n\n    def test_statuscode(self):\n        # 验证服务器状态\n>       assert self.response.status_code == 100\nE       assert 200 == 100\nE        +  where 200 = <Response [200]>.status_code\nE        +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response\n\ntestcase/Test_relenishinfohis.py:57: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 200 == 100\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response",
+    "statusTrace" : "self = <Test_relenishinfohis.TestRih object at 0x10a479860>\n\n    def test_statuscode(self):\n        # 验证服务器状态\n>       assert self.response.status_code == 100\nE       assert 200 == 100\nE        +  where 200 = <Response [200]>.status_code\nE        +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response\n\ntestcase/Test_relenishinfohis.py:57: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c41632f5969bb661",
+      "name" : "Captured stdout setup",
+      "source" : "c41632f5969bb661.txt",
+      "type" : "text/plain",
+      "size" : 32381
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "RaymendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "86609-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestRih.test_statuscode"
+  }, {
+    "name" : "package",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "50b24cc1fdf3655a.json",
+  "parameterValues" : [ ]
+}

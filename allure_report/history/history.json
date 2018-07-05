@@ -1,0 +1,79 @@
+{
+  "b7793194e290cec4c22245d86c1db378" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6aae49cb5a571cfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1530785457945,
+        "stop" : 1530785457946,
+        "duration" : 1
+      }
+    } ]
+  },
+  "910e35b6b5741836c127a61c7f5d31c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58228eb377ea8d91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1530785457947,
+        "stop" : 1530785457948,
+        "duration" : 1
+      }
+    } ]
+  },
+  "110d5c04638e5a5dab53734eb337cd84" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50b24cc1fdf3655a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == 100\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response",
+      "time" : {
+        "start" : 1530785457628,
+        "stop" : 1530785457943,
+        "duration" : 315
+      }
+    } ]
+  },
+  "297099252ac1d08d04afdf4aa4403dae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc6ff78d5a01400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1530785457949,
+        "stop" : 1530785457954,
+        "duration" : 5
+      }
+    } ]
+  }
+}

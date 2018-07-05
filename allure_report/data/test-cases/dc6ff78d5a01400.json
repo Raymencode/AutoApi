@@ -1,0 +1,82 @@
+{
+  "uid" : "dc6ff78d5a01400",
+  "name" : "TestRih.test_carcount",
+  "fullName" : "Test_relenishinfohis.TestRih.test_carcount",
+  "historyId" : "297099252ac1d08d04afdf4aa4403dae",
+  "time" : {
+    "start" : 1530785457949,
+    "stop" : 1530785457954,
+    "duration" : 5
+  },
+  "description" : "\nCreated on 2018-07-04\n@author: Raymen\nProject: 使用Pytest框架编写接口测试\n",
+  "descriptionHtml" : "<p>Created on 2018-07-04\n@author: Raymen\nProject: 使用Pytest框架编写接口测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c25ca77e3330b666",
+      "name" : "Captured stdout setup",
+      "source" : "c25ca77e3330b666.txt",
+      "type" : "text/plain",
+      "size" : 38
+    }, {
+      "uid" : "b3d5411b62aa705b",
+      "name" : "Captured stdout call",
+      "source" : "b3d5411b62aa705b.txt",
+      "type" : "text/plain",
+      "size" : 205
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "RaymendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "86609-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestRih.test_carcount"
+  }, {
+    "name" : "package",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc6ff78d5a01400.json",
+  "parameterValues" : [ ]
+}

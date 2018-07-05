@@ -1,0 +1,6 @@
+[
+  "Test_relenishinfohis.py::TestRih::()::test_statuscode",
+  "Test_relenishinfohis.py::TestRih::()::test_ftcar_license",
+  "Test_relenishinfohis.py::TestRih::()::test_ftcar_lastime_isnotNUll",
+  "Test_relenishinfohis.py::TestRih::()::test_carcount"
+]

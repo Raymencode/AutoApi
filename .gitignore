@@ -1,0 +1,5 @@
+#此为注释-将被Git忽略
+#忽略testcase部分case
+testcase/loginpwd.py
+testcase/temp.py
+testcase/testdemo.py

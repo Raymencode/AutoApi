@@ -1,0 +1,53 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "TestRih.test_statuscode",
+    "uid" : "50b24cc1fdf3655a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1530785457628,
+      "stop" : 1530785457943,
+      "duration" : 315
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestRih.test_ftcar_license",
+    "uid" : "6aae49cb5a571cfd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1530785457945,
+      "stop" : 1530785457946,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestRih.test_ftcar_lastime_isnotNUll",
+    "uid" : "58228eb377ea8d91",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1530785457947,
+      "stop" : 1530785457948,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestRih.test_carcount",
+    "uid" : "dc6ff78d5a01400",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1530785457949,
+      "stop" : 1530785457954,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

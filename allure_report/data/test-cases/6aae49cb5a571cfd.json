@@ -1,0 +1,76 @@
+{
+  "uid" : "6aae49cb5a571cfd",
+  "name" : "TestRih.test_ftcar_license",
+  "fullName" : "Test_relenishinfohis.TestRih.test_ftcar_license",
+  "historyId" : "b7793194e290cec4c22245d86c1db378",
+  "time" : {
+    "start" : 1530785457945,
+    "stop" : 1530785457946,
+    "duration" : 1
+  },
+  "description" : "\nCreated on 2018-07-04\n@author: Raymen\nProject: 使用Pytest框架编写接口测试\n",
+  "descriptionHtml" : "<p>Created on 2018-07-04\n@author: Raymen\nProject: 使用Pytest框架编写接口测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b2d57c640936b317",
+      "name" : "Captured stdout setup",
+      "source" : "b2d57c640936b317.txt",
+      "type" : "text/plain",
+      "size" : 43
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "RaymendeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "86609-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestRih.test_ftcar_license"
+  }, {
+    "name" : "package",
+    "value" : "Test_relenishinfohis"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aae49cb5a571cfd.json",
+  "parameterValues" : [ ]
+}

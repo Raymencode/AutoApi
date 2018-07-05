@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 200 == 100\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response",
+      "children" : [ {
+        "name" : "TestRih.test_statuscode",
+        "uid" : "50b24cc1fdf3655a",
+        "parentUid" : "54978196b9be25378d64c8c166443b07",
+        "status" : "failed",
+        "time" : {
+          "start" : 1530785457628,
+          "stop" : 1530785457943,
+          "duration" : 315
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54978196b9be25378d64c8c166443b07"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
