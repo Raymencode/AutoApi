@@ -60,9 +60,11 @@
       <file leaf-file-name="Test_relenishinfohis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/Test_relenishinfohis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="-185">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+              <folding>
+                <element signature="e#105#118#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -671,7 +673,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -867,9 +869,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Test_relenishinfohis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="-185">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="e#105#118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
