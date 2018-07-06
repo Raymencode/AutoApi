@@ -54,7 +54,7 @@ class TestRih():
 
     def test_statuscode(self):
         # 验证服务器状态
-        assert self.response.status_code == 100
+        assert self.response.status_code == 200
 
     def test_ftcar_license(self):
         # 验证第一个车牌号是否正确
