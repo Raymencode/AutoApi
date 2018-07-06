@@ -63,7 +63,7 @@ class TestRih():
         # 验证第一个车牌号是否正确
         assert self.response.json()["data"][0]["license_no"] == "渝ACV350"
 
-    @allure_report.step('日期不为空')
+    @pytest.allure.step('日期不为空')
     def test_ftcar_lastime_isnotNUll(self):
         # 验证第一个车牌号是否正确
         assert self.response.json()["data"][0]["last_replenish_time"] != ''
