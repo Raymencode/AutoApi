@@ -52,18 +52,22 @@ class TestRih():
         cls.app = InstanceAPI(cls.base_url)
         cls.response = cls.app.replenishinfohistory()
 
+    @allure.step('验证服务器状态码返回')
     def test_statuscode(self):
         # 验证服务器状态
         assert self.response.status_code == 200
 
+    @allure.step('第一辆车的车牌号')
     def test_ftcar_license(self):
         # 验证第一个车牌号是否正确
         assert self.response.json()["data"][0]["license_no"] == "渝ACV350"
 
+    @allure.step('日期不为空')
     def test_ftcar_lastime_isnotNUll(self):
         # 验证第一个车牌号是否正确
         assert self.response.json()["data"][0]["last_replenish_time"] != ''
 
+    @allure.step('列表最大车辆数')
     def test_carcount(self):
         #验证获取的历史车辆列表最大数
         self.count = 0
