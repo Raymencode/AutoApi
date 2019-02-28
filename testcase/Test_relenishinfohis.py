@@ -68,7 +68,7 @@ class TestRih():
         # 验证第一个车牌号是否正确
         assert self.response.json()["data"][0]["last_replenish_time"] != ''
 
-    @pytest.allure.step('列表最大车辆数')
+    @pytest.allure.step('列表最大车辆')
     def test_carcount(self):
         #验证获取的历史车辆列表最大数
         self.count = 0
