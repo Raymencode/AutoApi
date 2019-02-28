@@ -47,7 +47,7 @@ class InstanceAPI(object):
 # 定义测试类
 class TestRih():
     # 初始化
-    # @pytest.fixture(scope="module")
+    @pytest.fixture(scope="function",autouse=True)
     def setup_class(cls):
         cls.base_url = 'https://www.zhbbroker.com/yiiapp/'
         cls.app = InstanceAPI(cls.base_url)
