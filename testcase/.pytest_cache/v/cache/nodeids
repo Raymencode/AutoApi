@@ -1,6 +1,6 @@
 [
-  "Test_relenishinfohis.py::TestRih::()::test_statuscode",
-  "Test_relenishinfohis.py::TestRih::()::test_ftcar_license",
-  "Test_relenishinfohis.py::TestRih::()::test_ftcar_lastime_isnotNUll",
-  "Test_relenishinfohis.py::TestRih::()::test_carcount"
+  "test_lately_more_search_car.py::Test_LatelySearchCar::test_statuscode",
+  "test_lately_more_search_car.py::Test_LatelySearchCar::test_ftcar_license",
+  "test_lately_more_search_car.py::Test_LatelySearchCar::test_ftcar_lastime_isnotnull",
+  "test_lately_more_search_car.py::Test_LatelySearchCar::test_carcount"
 ]

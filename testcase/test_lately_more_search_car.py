@@ -33,7 +33,7 @@ class InstanceAPI(object):
         #self.base_url = 'https://www.zhbbroker.com/yiiapp/'
         url = urljoin(self.base_url, 'home-config/lately-more-search-car')
         #payload = {'version': '3.6.0'}
-        headers = {'Cookie':'pgv_pvi=1282623488; pgv_si=s5447865344; user_id=692808; PHPSESSID=6f7v19iunn2cb5kt8600eua9u2; Hm_lvt_79ee0e9f63d4bd87c861f98a6d497993=1558347763; Hm_lpvt_79ee0e9f63d4bd87c861f98a6d497993=1558937422; ZHBSESSID=a1c1e55a33f545d09a22dc24e1d135ff'}
+        headers = {'Cookie':'pgv_pvi=1282623488; pgv_si=s5447865344; user_id=692808; PHPSESSID=6f7v19iunn2cb5kt8600eua9u2; Hm_lvt_79ee0e9f63d4bd87c861f98a6d497993=1558347763; Hm_lpvt_79ee0e9f63d4bd87c861f98a6d497993=1560258259; ZHBSESSID=4d996b9c3ce148e5a3c21d2637e35b24'}
         response = self.session.get(url=url,headers=headers)
         # 'user_id':'692808', 'ZHBSESSID':'880705d5e8ae98-a73b-468b-a2b3-68ed18b89e4c'
         print('\n*****************************************')
@@ -48,7 +48,7 @@ class InstanceAPI(object):
 
 
 # 定义测试类
-class Test_latelySearchcar():
+class Test_LatelySearchCar():
     # 初始化
     # @classmethod
     # @pytest.fixture(scope="function",autouse=True)
@@ -65,10 +65,10 @@ class Test_latelySearchcar():
     @allure.step('第一辆车的车架号')
     def test_ftcar_license(self):
         # 验证第一个车牌号是否正确
-        assert self.response.json()["data"][0]["frame_no"] == "LVHRE487995016944"
+        assert self.response.json()["data"][0]["frame_no"] == "LSGJA52H5DS249958"
 
     @allure.step('日期不为空')
-    def test_ftcar_lastime_isnotNUll(self):
+    def test_ftcar_lastime_isnotnull(self):
         # 验证第一个车牌号是否正确
         assert self.response.json()["data"][0]["last_replenish_time"] != ''
 
