@@ -1,6 +1,0 @@
-[
-  "test_lately_more_search_car.py::Test_LatelySearchCar::test_statuscode",
-  "test_lately_more_search_car.py::Test_LatelySearchCar::test_ftcar_license",
-  "test_lately_more_search_car.py::Test_LatelySearchCar::test_ftcar_lastime_isnotnull",
-  "test_lately_more_search_car.py::Test_LatelySearchCar::test_carcount"
-]
