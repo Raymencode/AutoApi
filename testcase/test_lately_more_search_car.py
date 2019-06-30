@@ -19,6 +19,22 @@ except ImportError:
     from urllib.parse import urljoin
 
 
+class Login_Pwd(object):
+    def login_pwd(self):
+        url = "https://zhbbroker.com/yiiapp/user-pwd/user-pwd-login"
+        payload = {'mobile': '15921570877',
+                   'pwd': 'fdbc6f40e9e178dd990058bb52888552342a35bb7ed0ca547c9a67eeb2dbb5b6', 'login_type': '17',
+                   'source_type': 'wechat'}
+
+        # headers = {
+        #     'content-type': "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+        #     'cache-control': "no-cache",
+        #     'postman-token': "487c0231-0871-470a-20b4-b2f6aa05a3eb"
+        #     }
+        r = requests.post(url=url, data=payload)
+        zhbcookie = (r.headers['Set-Cookie'].split(';')[0])
+        return zhbcookie
+
 class InstanceAPI(object):
     def __init__(self, base_url):
         self.base_url = base_url
@@ -30,10 +46,14 @@ class InstanceAPI(object):
         """
         详情接口
         """
+        self.temp_session = Login_Pwd.login_pwd(self)
+        print(self.temp_session)
         #self.base_url = 'https://www.zhbbroker.com/yiiapp/'
         url = urljoin(self.base_url, 'home-config/lately-more-search-car')
         #payload = {'version': '3.6.0'}
-        headers = {'Cookie':'pgv_pvi=1282623488; pgv_si=s5447865344; user_id=692808; PHPSESSID=6f7v19iunn2cb5kt8600eua9u2; Hm_lvt_79ee0e9f63d4bd87c861f98a6d497993=1558347763; Hm_lpvt_79ee0e9f63d4bd87c861f98a6d497993=1560258259; ZHBSESSID=4d996b9c3ce148e5a3c21d2637e35b24'}
+        temp = 'pgv_pvi=1282623488; pgv_si=s5447865344; user_id=692808; PHPSESSID=6f7v19iunn2cb5kt8600eua9u2; Hm_lvt_79ee0e9f63d4bd87c861f98a6d497993=1561447079; Hm_lpvt_79ee0e9f63d4bd87c861f98a6d497993=1561909903;'+str(self.temp_session)
+        print(temp)
+        headers = {'Cookie':temp}
         response = self.session.get(url=url,headers=headers)
         # 'user_id':'692808', 'ZHBSESSID':'880705d5e8ae98-a73b-468b-a2b3-68ed18b89e4c'
         print('\n*****************************************')
@@ -43,7 +63,7 @@ class InstanceAPI(object):
         print(u'\n3、请求cookies:')
         pprint(dict(self.session.cookies))
         print(u'\n4、响应:')
-        # pprint(response.json())
+        pprint(response.json()['data'])
         return response
 
 
@@ -51,11 +71,12 @@ class InstanceAPI(object):
 class Test_LatelySearchCar():
     # 初始化
     # @classmethod
-    # @pytest.fixture(scope="function",autouse=True)
+    #@pytest.fixture(scope="function",autouse=True)
     def setup_class(cls):
         cls.base_url = 'https://www.zhbbroker.com/yiiapp/'
         cls.app = InstanceAPI(cls.base_url)
         cls.response = cls.app.lately_search_car()
+        print(cls.response)
 
     @allure.step('验证服务器状态码返回')
     def test_statuscode(self):
@@ -65,7 +86,7 @@ class Test_LatelySearchCar():
     @allure.step('第一辆车的车架号')
     def test_ftcar_license(self):
         # 验证第一个车牌号是否正确
-        assert self.response.json()["data"][0]["frame_no"] == "LSGJA52H5DS249958"
+        assert self.response.json()["data"][0]["frame_no"] == "LBECFAHB2HZ520602"
 
     @allure.step('日期不为空')
     def test_ftcar_lastime_isnotnull(self):
