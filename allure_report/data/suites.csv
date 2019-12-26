@@ -1,21 +1,5 @@
 "Status","Name","Duration in ms","Description"
-"failed","Test_relenishinfohis.TestRih.test_statuscode","315","
-Created on 2018-07-04
-@author: Raymen
-Project: 使用Pytest框架编写接口测试
-"
-"passed","Test_relenishinfohis.TestRih.test_carcount","5","
-Created on 2018-07-04
-@author: Raymen
-Project: 使用Pytest框架编写接口测试
-"
-"passed","Test_relenishinfohis.TestRih.test_ftcar_lastime_isnotNUll","1","
-Created on 2018-07-04
-@author: Raymen
-Project: 使用Pytest框架编写接口测试
-"
-"passed","Test_relenishinfohis.TestRih.test_ftcar_license","1","
-Created on 2018-07-04
-@author: Raymen
-Project: 使用Pytest框架编写接口测试
-"
+"passed","test_lately_more_search_car.Test_LatelySearchCar#test_ftcar_lastime_isnotnull","0",""
+"passed","test_lately_more_search_car.Test_LatelySearchCar#test_carcount","6",""
+"failed","test_lately_more_search_car.Test_LatelySearchCar#test_ftcar_license","3",""
+"passed","test_lately_more_search_car.Test_LatelySearchCar#test_statuscode","1",""

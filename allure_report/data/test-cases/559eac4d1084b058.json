@@ -1,0 +1,125 @@
+{
+  "uid" : "559eac4d1084b058",
+  "name" : "test_statuscode",
+  "fullName" : "test_lately_more_search_car.Test_LatelySearchCar#test_statuscode",
+  "historyId" : "af59a7cd8150c061859c1a1d28c41954",
+  "time" : {
+    "start" : 1561864173074,
+    "stop" : 1561864173075,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1561864172859,
+      "stop" : 1561864173072,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证服务器状态码返回",
+      "time" : {
+        "start" : 1561864173075,
+        "stop" : 1561864173075,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ea83181c4ba45a8b",
+      "name" : "log",
+      "source" : "ea83181c4ba45a8b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "21b85d5aa9faee84",
+      "name" : "stdout",
+      "source" : "21b85d5aa9faee84.txt",
+      "type" : "text/plain",
+      "size" : 365
+    }, {
+      "uid" : "6db08a0251958f20",
+      "name" : "stderr",
+      "source" : "6db08a0251958f20.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1561864173149,
+      "stop" : 1561864173149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_lately_more_search_car"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_LatelySearchCar"
+  }, {
+    "name" : "host",
+    "value" : "RaymendeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "8382-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_lately_more_search_car"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "559eac4d1084b058.json",
+  "parameterValues" : [ ]
+}

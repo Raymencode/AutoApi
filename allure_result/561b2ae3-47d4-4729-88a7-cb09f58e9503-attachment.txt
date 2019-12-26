@@ -1,0 +1,14 @@
+setting up <Function test_statuscode>
+
+*****************************************
+
+1、请求url: 
+https://www.zhbbroker.com/yiiapp/home-config/lately-more-search-car
+
+2、请求头信息:
+{'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+
+3、请求cookies:
+{'user_id': '692808'}
+
+4、响应:

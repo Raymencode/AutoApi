@@ -47,13 +47,10 @@ class InstanceAPI(object):
         详情接口
         """
         self.temp_session = Login_Pwd.login_pwd(self)
-        print(self.temp_session)
-        #self.base_url = 'https://www.zhbbroker.com/yiiapp/'
         url = urljoin(self.base_url, 'home-config/lately-more-search-car')
         #payload = {'version': '3.6.0'}
-        temp = 'pgv_pvi=1282623488; pgv_si=s5447865344; user_id=692808; PHPSESSID=6f7v19iunn2cb5kt8600eua9u2; Hm_lvt_79ee0e9f63d4bd87c861f98a6d497993=1561447079; Hm_lpvt_79ee0e9f63d4bd87c861f98a6d497993=1561909903;'+str(self.temp_session)
-        print(temp)
-        headers = {'Cookie':temp}
+        temp_cookie = 'pgv_pvi=1282623488; pgv_si=s5447865344; user_id=692808; PHPSESSID=6f7v19iunn2cb5kt8600eua9u2; Hm_lvt_79ee0e9f63d4bd87c861f98a6d497993=1561447079; Hm_lpvt_79ee0e9f63d4bd87c861f98a6d497993=1561909903;'+str(self.temp_session)
+        headers = {'Cookie':temp_cookie}
         response = self.session.get(url=url,headers=headers)
         # 'user_id':'692808', 'ZHBSESSID':'880705d5e8ae98-a73b-468b-a2b3-68ed18b89e4c'
         print('\n*****************************************')
@@ -63,7 +60,7 @@ class InstanceAPI(object):
         print(u'\n3、请求cookies:')
         pprint(dict(self.session.cookies))
         print(u'\n4、响应:')
-        pprint(response.json()['data'])
+        pprint(response)
         return response
 
 
@@ -76,7 +73,6 @@ class Test_LatelySearchCar():
         cls.base_url = 'https://www.zhbbroker.com/yiiapp/'
         cls.app = InstanceAPI(cls.base_url)
         cls.response = cls.app.lately_search_car()
-        print(cls.response)
 
     @allure.step('验证服务器状态码返回')
     def test_statuscode(self):
@@ -86,7 +82,7 @@ class Test_LatelySearchCar():
     @allure.step('第一辆车的车架号')
     def test_ftcar_license(self):
         # 验证第一个车牌号是否正确
-        assert self.response.json()["data"][0]["frame_no"] == "LBECFAHB2HZ520602"
+        assert self.response.json()["data"][0]["frame_no"] == "LFWSRXSJXK1F06436"
 
     @allure.step('日期不为空')
     def test_ftcar_lastime_isnotnull(self):

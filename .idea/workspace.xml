@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2d03e5-56bd-4ffc-b01b-c3deebc26f30" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/apiproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fb2d03e5-56bd-4ffc-b01b-c3deebc26f30" name="Default" comment="update cookie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/attachments/56261e1e18cb80d8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/attachments/b2d57c640936b317.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/attachments/b3d5411b62aa705b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/attachments/c25ca77e3330b666.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/attachments/c41632f5969bb661.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/test-cases/50b24cc1fdf3655a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/test-cases/58228eb377ea8d91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/test-cases/6aae49cb5a571cfd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/test-cases/dc6ff78d5a01400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_report/widgets/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_lately_more_search_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_lately_more_search_car.py" afterDir="false" />
     </list>
     <ignored path="apiproject.iws" />
@@ -20,37 +43,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_eval.coverage" NAME="py.test in TestRequestDemo and test_eval Coverage Results" MODIFIED="1528356667620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_get_posts.coverage" NAME="py.test in TestRequestDemo and test_get_posts Coverage Results" MODIFIED="1530174853610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$Test_relenishinfohis.coverage" NAME="Test_relenishinfohis Coverage Results" MODIFIED="1553913007312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_Search_car_and_test_carcount.coverage" NAME="py.test in Test_lately_Search_car and test_carcount Coverage Results" MODIFIED="1553935292053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih.coverage" NAME="py.test in TestRih Coverage Results" MODIFIED="1530712068469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_test_eval.coverage" NAME="py.test in test_eval Coverage Results" MODIFIED="1530089947379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_InstanceAPI.coverage" NAME="py.test in InstanceAPI Coverage Results" MODIFIED="1554121058589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1528369841724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih_and_test_statuscode.coverage" NAME="py.test in TestRih and test_statuscode Coverage Results" MODIFIED="1530710423887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_PwdLogin_py.coverage" NAME="py.test in Test_PwdLogin.py Coverage Results" MODIFIED="1553917795870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo__2_.coverage" NAME="py.test in TestRequestDemo (2) Coverage Results" MODIFIED="1528342562341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_test_func_slow_2.coverage" NAME="py.test in test_func_slow_2 Coverage Results" MODIFIED="1528367326206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_testdemo_py.coverage" NAME="py.test in testdemo.py Coverage Results" MODIFIED="1530705767321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_more_search_car_py.coverage" NAME="py.test in Test_lately-more-search-car.py Coverage Results" MODIFIED="1553933936708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih_and_test_statuscode__1_.coverage" NAME="py.test in TestRih and test_statuscode (1) Coverage Results" MODIFIED="1530784692249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestDemo_and_test_plus.coverage" NAME="py.test in TestDemo and test_plus Coverage Results" MODIFIED="1528614327123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Op_py.coverage" NAME="py.test in Op.py Coverage Results" MODIFIED="1528367318668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_get_posts.coverage" NAME="py.test in TestRequestDemo and test_get_posts Coverage Results" MODIFIED="1530174853610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/apiproject$temp.coverage" NAME="temp Coverage Results" MODIFIED="1528369897127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih_and_test_firstlicense.coverage" NAME="py.test in TestRih and test_firstlicense Coverage Results" MODIFIED="1530703494404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestUserPwdLogin.coverage" NAME="py.test in TestUserPwdLogin Coverage Results" MODIFIED="1553917746045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestDemo.coverage" NAME="py.test in TestDemo Coverage Results" MODIFIED="1528614365115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_get_posts__1_.coverage" NAME="py.test in TestRequestDemo and test_get_posts (1) Coverage Results" MODIFIED="1528357631189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_firstlicense.coverage" NAME="py.test in TestRequestDemo and test_firstlicense Coverage Results" MODIFIED="1530175590610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_Search_car.coverage" NAME="py.test in Test_lately_Search_car Coverage Results" MODIFIED="1553933943873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$Test_replenish_info_history.coverage" NAME="Test_replenish-info-history Coverage Results" MODIFIED="1530175498523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo__1_.coverage" NAME="py.test in TestRequestDemo (1) Coverage Results" MODIFIED="1528337580092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo.coverage" NAME="py.test in TestRequestDemo Coverage Results" MODIFIED="1530166650653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_Search_car_and_test_statuscode.coverage" NAME="py.test in Test_lately_Search_car and test_statuscode Coverage Results" MODIFIED="1553916235537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_eval.coverage" NAME="py.test in TestRequestDemo and test_eval Coverage Results" MODIFIED="1528356667620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/apiproject$py_test_in_test_eval2.coverage" NAME="py.test in test_eval2 Coverage Results" MODIFIED="1530089554771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo__2_.coverage" NAME="py.test in TestRequestDemo (2) Coverage Results" MODIFIED="1528342562341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestDemo_and_test_plus.coverage" NAME="py.test in TestDemo and test_plus Coverage Results" MODIFIED="1528614327123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$Test_relenishinfohis.coverage" NAME="Test_relenishinfohis Coverage Results" MODIFIED="1553913007312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih_and_test_statuscode__1_.coverage" NAME="py.test in TestRih and test_statuscode (1) Coverage Results" MODIFIED="1530784692249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_Search_car.coverage" NAME="py.test in Test_lately_Search_car Coverage Results" MODIFIED="1553933943873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_InstanceAPI.coverage" NAME="py.test in InstanceAPI Coverage Results" MODIFIED="1554121058589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_PwdLogin_py.coverage" NAME="py.test in Test_PwdLogin.py Coverage Results" MODIFIED="1553917795870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_firstlicense.coverage" NAME="py.test in TestRequestDemo and test_firstlicense Coverage Results" MODIFIED="1530175590610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar Coverage Results" MODIFIED="1577269891114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_Search_car_and_test_carcount.coverage" NAME="py.test in Test_lately_Search_car and test_carcount Coverage Results" MODIFIED="1553935292053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_test_eval.coverage" NAME="py.test in test_eval Coverage Results" MODIFIED="1530089947379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestUserPwdLogin.coverage" NAME="py.test in TestUserPwdLogin Coverage Results" MODIFIED="1553917746045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_Search_car_and_test_statuscode.coverage" NAME="py.test in Test_lately_Search_car and test_statuscode Coverage Results" MODIFIED="1553916235537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1528369841724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo_and_test_get_posts__1_.coverage" NAME="py.test in TestRequestDemo and test_get_posts (1) Coverage Results" MODIFIED="1528357631189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/apiproject$loginpwd.coverage" NAME="loginpwd Coverage Results" MODIFIED="1530153652083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo__1_.coverage" NAME="py.test in TestRequestDemo (1) Coverage Results" MODIFIED="1528337580092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestDemo.coverage" NAME="py.test in TestDemo Coverage Results" MODIFIED="1528614365115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_lately_more_search_car_py.coverage" NAME="py.test in Test_lately-more-search-car.py Coverage Results" MODIFIED="1553933936708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_testdemo_py.coverage" NAME="py.test in testdemo.py Coverage Results" MODIFIED="1530705767321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_Op_py.coverage" NAME="py.test in Op.py Coverage Results" MODIFIED="1528367318668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_test_func_slow_2.coverage" NAME="py.test in test_func_slow_2 Coverage Results" MODIFIED="1528367326206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRequestDemo.coverage" NAME="py.test in TestRequestDemo Coverage Results" MODIFIED="1530166650653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/apiproject$py_test_in_Test_relenishinfohis_py.coverage" NAME="py.test in Test_relenishinfohis.py Coverage Results" MODIFIED="1553915501183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$Test_replenish_info_history.coverage" NAME="Test_replenish-info-history Coverage Results" MODIFIED="1530175498523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih_and_test_firstlicense.coverage" NAME="py.test in TestRih and test_firstlicense Coverage Results" MODIFIED="1530703494404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/apiproject$py_test_in_TestRih.coverage" NAME="py.test in TestRih Coverage Results" MODIFIED="1530712068469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -63,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/test_lately_more_search_car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="32" column="59" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="59" />
+            <state relative-caret-position="-1609">
+              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
               <folding>
                 <element signature="e#105#118#0" expanded="true" />
               </folding>
@@ -75,8 +99,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/testdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
+            <state relative-caret-position="170">
               <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/loginpwd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -103,19 +136,20 @@
         <option value="$PROJECT_DIR$/testcase/temp.py" />
         <option value="$PROJECT_DIR$/testcase/Test_replenish-info-history.py" />
         <option value="$PROJECT_DIR$/testcase/Test_replenish_info_history.py" />
-        <option value="$PROJECT_DIR$/testcase/loginpwd.py" />
         <option value="$PROJECT_DIR$/testcase/Test_PwdLogin.py" />
         <option value="$PROJECT_DIR$/testcase/Test_relenishinfohis.py" />
         <option value="$PROJECT_DIR$/../Apiprj/testcase/Test_carhistory.py" />
         <option value="$PROJECT_DIR$/testcase/testdemo.py" />
         <option value="$PROJECT_DIR$/testcase/Test_lately-more-search-car.py" />
         <option value="$PROJECT_DIR$/testcase/Test_lately_more_search_car.py" />
+        <option value="$PROJECT_DIR$/testcase/loginpwd.py" />
         <option value="$PROJECT_DIR$/testcase/test_lately_more_search_car.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="68" />
+    <option name="y" value="27" />
     <option name="width" value="1680" />
     <option name="height" value="962" />
   </component>
@@ -216,6 +250,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_carcount" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="apiproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lately_more_search_car.Test_LatelySearchCar.test_carcount&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="apiproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,7 +282,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_lately_more_search_car.Test_latelySearchcar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_statuscode" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="apiproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,11 +294,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lately_more_search_car.Test_latelySearchcar&quot;" />
+      <option name="_new_target" value="&quot;test_lately_more_search_car.Test_LatelySearchCar.test_statuscode&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_lately_more_search_car.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="apiproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,40 +310,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_lately_more_search_car.Test_latelySearchcar.test_statuscode" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="apiproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lately_more_search_car.Test_latelySearchcar.test_statuscode&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_lately_more_search_car.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_latelySearchcar" />
-      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_latelySearchcar.test_statuscode" />
-      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license" />
-      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license" />
       <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar" />
+      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_carcount" />
+      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license" />
+      <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_statuscode" />
+      <item itemvalue="Python tests.pytest in test_lately_more_search_car.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar" />
+        <item itemvalue="Python tests.pytest in test_lately_more_search_car.py" />
+        <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_carcount" />
         <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license" />
-        <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license" />
-        <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_latelySearchcar.test_statuscode" />
-        <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_latelySearchcar" />
+        <item itemvalue="Python tests.pytest for test_lately_more_search_car.Test_LatelySearchCar.test_statuscode" />
       </list>
     </recent_temporary>
   </component>
@@ -309,44 +343,57 @@
       <updated>1527075862814</updated>
       <workItem from="1557545874507" duration="15884000" />
       <workItem from="1559362422998" duration="2896000" />
-      <workItem from="1560581556867" duration="2424000" />
+      <workItem from="1560581556867" duration="13787000" />
+      <workItem from="1566177132362" duration="953000" />
+      <workItem from="1570532594290" duration="1277000" />
+      <workItem from="1571470836838" duration="2935000" />
+      <workItem from="1573604952545" duration="9320000" />
+      <workItem from="1574748054998" duration="5546000" />
     </task>
+    <task id="LOCAL-00001" summary="update cookie">
+      <created>1560586620110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560586620111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_Test_lately_more_search_car_Test_latelySearchcar_test_carcount - 2019.05.30 at 20h 52m 32s.xml">
-      <configuration name="pytest for Test_lately_more_search_car.Test_latelySearchcar.test_carcount" configurationId="tests" />
+    <history-entry file="pytest_in_test_lately_more_search_car_py - 2019.07.01 at 00h 32m 19s.xml">
+      <configuration name="pytest in test_lately_more_search_car.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_Test_lately_more_search_car_Test_latelySearchcar - 2019.05.30 at 20h 52m 41s.xml">
-      <configuration name="pytest for Test_lately_more_search_car.Test_latelySearchcar" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.07.01 at 15h 11m 25s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_Test_relenishinfohis_py - 2019.05.31 at 11h 42m 21s.xml">
-      <configuration name="pytest in Test_relenishinfohis.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.07.01 at 15h 12m 05s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_Test_lately_more_search_car_Test_latelySearchcar - 2019.06.01 at 14h 24m 36s.xml">
-      <configuration name="pytest for Test_lately_more_search_car.Test_latelySearchcar" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.07.01 at 15h 12m 39s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_Test_lately_more_search_car_Test_latelySearchcar - 2019.06.01 at 17h 11m 12s.xml">
-      <configuration name="pytest for Test_lately_more_search_car.Test_latelySearchcar" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.10.08 at 19h 03m 34s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_Test_demo01_py - 2019.06.01 at 17h 11m 16s.xml">
-      <configuration name="pytest in Test_demo01.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.10.10 at 17h 40m 05s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_lately_more_search_car_Test_latelySearchcar - 2019.06.15 at 14h 52m 56s.xml">
-      <configuration name="pytest for test_lately_more_search_car.Test_latelySearchcar" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.10.24 at 15h 38m 20s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_lately_more_search_car_Test_latelySearchcar_test_statuscode - 2019.06.15 at 14h 58m 58s.xml">
-      <configuration name="pytest for test_lately_more_search_car.Test_latelySearchcar.test_statuscode" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.12.25 at 14h 40m 14s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_lately_more_search_car_Test_latelySearchcar_test_ftcar_license - 2019.06.15 at 14h 59m 02s.xml">
-      <configuration name="pytest for test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.12.25 at 18h 31m 01s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar_test_ftcar_license - 2019.06.15 at 15h 19m 34s.xml">
-      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license" configurationId="tests" />
+    <history-entry file="pytest_for_test_lately_more_search_car_Test_LatelySearchCar - 2019.12.25 at 18h 31m 32s.xml">
+      <configuration name="pytest for test_lately_more_search_car.Test_LatelySearchCar" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21204000" />
+    <option name="totallyTimeSpent" value="52598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,16 +405,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="962" extended-state="0" />
+    <frame x="68" y="27" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22588523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2002442" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49707603" visible="true" weight="0.31050768" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905548" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49707603" visible="true" weight="0.3577332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33175915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916147" />
@@ -445,6 +492,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -454,30 +515,40 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update cookie" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cookie" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/apiproject$Test_carhistory.coverage" NAME="Test_carhistory Coverage Results" MODIFIED="1558168676775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Apiprj/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_in_testdemo_py.coverage" NAME="pytest in testdemo.py Coverage Results" MODIFIED="1558168988657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_PwdLogin_TestUserPwdLogin_test_pwdloign.coverage" NAME="pytest for Test_PwdLogin.TestUserPwdLogin.test_pwdloign Coverage Results" MODIFIED="1557558702371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih_test_ftcar_license.coverage" NAME="pytest for Test_relenishinfohis.TestRih.test_ftcar_license Coverage Results" MODIFIED="1558168631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_latelySearchcar.coverage" NAME="pytest for Test_lately_more_search_car.Test_latelySearchcar Coverage Results" MODIFIED="1559380271653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih_test_statuscode.coverage" NAME="pytest for Test_relenishinfohis.TestRih.test_statuscode Coverage Results" MODIFIED="1558168638949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_lately_Search_car.coverage" NAME="pytest for Test_lately-more-search-car.Test_lately_Search_car Coverage Results" MODIFIED="1558169076114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_in_Test_lately_more_search_car_py.coverage" NAME="pytest in Test_lately-more-search-car.py Coverage Results" MODIFIED="1559217461230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar_test_statuscode.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_statuscode Coverage Results" MODIFIED="1561911950299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_in_test_lately_more_search_car_py.coverage" NAME="pytest in test_lately_more_search_car.py Coverage Results" MODIFIED="1561912338805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_latelySearchcar_test_carcount.coverage" NAME="pytest for Test_lately_more_search_car.Test_latelySearchcar.test_carcount Coverage Results" MODIFIED="1559220752069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih_test_carcount.coverage" NAME="pytest for Test_relenishinfohis.TestRih.test_carcount Coverage Results" MODIFIED="1559216644214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_loginpwd_TestRih.coverage" NAME="pytest for loginpwd.TestRih Coverage Results" MODIFIED="1561907751011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih.coverage" NAME="pytest for Test_relenishinfohis.TestRih Coverage Results" MODIFIED="1559218596133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_PwdLogin_TestUserPwdLogin.coverage" NAME="pytest for Test_PwdLogin.TestUserPwdLogin Coverage Results" MODIFIED="1558168693669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$loginpwd.coverage" NAME="loginpwd Coverage Results" MODIFIED="1561909731767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih_test_ftcar_license.coverage" NAME="pytest for Test_relenishinfohis.TestRih.test_ftcar_license Coverage Results" MODIFIED="1558168631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_latelySearchcar.coverage" NAME="pytest for test_lately_more_search_car.Test_latelySearchcar Coverage Results" MODIFIED="1560581574635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_testdemo_TestRequestDemo_test_get_posts.coverage" NAME="pytest for testdemo.TestRequestDemo.test_get_posts Coverage Results" MODIFIED="1559218573085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_latelySearchcar_test_ftcar_license.coverage" NAME="pytest for Test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license Coverage Results" MODIFIED="1559220419916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih_test_statuscode.coverage" NAME="pytest for Test_relenishinfohis.TestRih.test_statuscode Coverage Results" MODIFIED="1558168638949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar_test_ftcar_license.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license Coverage Results" MODIFIED="1560583173192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_lately_Search_car.coverage" NAME="pytest for Test_lately-more-search-car.Test_lately_Search_car Coverage Results" MODIFIED="1558169076114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar_test_ftcar_lastime_isnotnull.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_lastime_isnotnull Coverage Results" MODIFIED="1561906011266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar_test_ftcar_license.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_ftcar_license Coverage Results" MODIFIED="1561911957028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar_test_carcount.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar.test_carcount Coverage Results" MODIFIED="1561912335572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_in_Test_demo01_py.coverage" NAME="pytest in Test_demo01.py Coverage Results" MODIFIED="1559380275411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar Coverage Results" MODIFIED="1560586575530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_LatelySearchCar.coverage" NAME="pytest for test_lately_more_search_car.Test_LatelySearchCar Coverage Results" MODIFIED="1570700402336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_lately_Search_car_test_carcount.coverage" NAME="pytest for Test_lately-more-search-car.Test_lately_Search_car.test_carcount Coverage Results" MODIFIED="1557555931605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_lately_Search_car_test_statuscode.coverage" NAME="pytest for Test_lately-more-search-car.Test_lately_Search_car.test_statuscode Coverage Results" MODIFIED="1558167216364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_in_Test_lately_more_search_car_py.coverage" NAME="pytest in Test_lately-more-search-car.py Coverage Results" MODIFIED="1559217461230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_in_Test_relenishinfohis_py.coverage" NAME="pytest in Test_relenishinfohis.py Coverage Results" MODIFIED="1559274140014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_latelySearchcar_test_ftcar_license.coverage" NAME="pytest for test_lately_more_search_car.Test_latelySearchcar.test_ftcar_license Coverage Results" MODIFIED="1560581941319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_lately_more_search_car_Test_latelySearchcar_test_carcount.coverage" NAME="pytest for Test_lately_more_search_car.Test_latelySearchcar.test_carcount Coverage Results" MODIFIED="1559220752069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/apiproject$pytest_for_test_lately_more_search_car_Test_latelySearchcar_test_statuscode.coverage" NAME="pytest for test_lately_more_search_car.Test_latelySearchcar.test_statuscode Coverage Results" MODIFIED="1560581937584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih_test_carcount.coverage" NAME="pytest for Test_relenishinfohis.TestRih.test_carcount Coverage Results" MODIFIED="1559216644214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_relenishinfohis_TestRih.coverage" NAME="pytest for Test_relenishinfohis.TestRih Coverage Results" MODIFIED="1559218596133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/apiproject$pytest_for_Test_PwdLogin_TestUserPwdLogin.coverage" NAME="pytest for Test_PwdLogin.TestUserPwdLogin Coverage Results" MODIFIED="1558168693669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../appium_demo/demo_1.py">
@@ -549,17 +620,7 @@
     <entry file="file://$PROJECT_DIR$/allure-report/report/index.html" />
     <entry file="file://$PROJECT_DIR$/allure-report/ec62d10e-888a-4f20-b6d8-2d0c9b09d1f0-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/allure_result/02c9f407-4e48-476f-8e0a-90856bd9e7ea-attachment.txt" />
-    <entry file="file://$PROJECT_DIR$/allure_report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/allure_result/405e0bc2-6cb2-4633-b0c7-f2e18557da5c-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/testcase/loginpwd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2704">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1173" />
@@ -639,20 +700,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Test_relenishinfohis.py" />
-    <entry file="file://$PROJECT_DIR$/testcase/Test_demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/testdemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Test_PwdLogin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -663,10 +710,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/allure_reports/html/index.html" />
+    <entry file="file://$PROJECT_DIR$/allure_report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/loginpwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Test_demo01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/testdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_lately_more_search_car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="59" />
+        <state relative-caret-position="-1609">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
           <folding>
             <element signature="e#105#118#0" expanded="true" />
           </folding>

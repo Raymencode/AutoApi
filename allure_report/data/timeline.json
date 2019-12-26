@@ -4,57 +4,57 @@
   "children" : [ {
     "name" : "RaymendeMacBook-Pro.local",
     "children" : [ {
-      "name" : "86609-MainThread",
+      "name" : "8382-MainThread",
       "children" : [ {
-        "name" : "TestRih.test_statuscode",
-        "uid" : "50b24cc1fdf3655a",
-        "parentUid" : "9f9cb614e8b7f5a38fbf0c4ea64876ec",
+        "name" : "test_ftcar_lastime_isnotnull",
+        "uid" : "57fd4ded4f144a9b",
+        "parentUid" : "6c2f3a50ae720f55650fc90ef8ea43e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561864173140,
+          "stop" : 1561864173140,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_carcount",
+        "uid" : "76126536d75196c9",
+        "parentUid" : "6c2f3a50ae720f55650fc90ef8ea43e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561864173143,
+          "stop" : 1561864173149,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ftcar_license",
+        "uid" : "1b6a1d1faea029ac",
+        "parentUid" : "6c2f3a50ae720f55650fc90ef8ea43e7",
         "status" : "failed",
         "time" : {
-          "start" : 1530785457628,
-          "stop" : 1530785457943,
-          "duration" : 315
+          "start" : 1561864173078,
+          "stop" : 1561864173081,
+          "duration" : 3
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "TestRih.test_carcount",
-        "uid" : "dc6ff78d5a01400",
-        "parentUid" : "9f9cb614e8b7f5a38fbf0c4ea64876ec",
+        "name" : "test_statuscode",
+        "uid" : "559eac4d1084b058",
+        "parentUid" : "6c2f3a50ae720f55650fc90ef8ea43e7",
         "status" : "passed",
         "time" : {
-          "start" : 1530785457949,
-          "stop" : 1530785457954,
-          "duration" : 5
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestRih.test_ftcar_lastime_isnotNUll",
-        "uid" : "58228eb377ea8d91",
-        "parentUid" : "9f9cb614e8b7f5a38fbf0c4ea64876ec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1530785457947,
-          "stop" : 1530785457948,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestRih.test_ftcar_license",
-        "uid" : "6aae49cb5a571cfd",
-        "parentUid" : "9f9cb614e8b7f5a38fbf0c4ea64876ec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1530785457945,
-          "stop" : 1530785457946,
+          "start" : 1561864173074,
+          "stop" : 1561864173075,
           "duration" : 1
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9f9cb614e8b7f5a38fbf0c4ea64876ec"
+      "uid" : "6c2f3a50ae720f55650fc90ef8ea43e7"
     } ],
     "uid" : "9dc28c22cd5fd3b15defe9ba9966e7f2"
   } ]

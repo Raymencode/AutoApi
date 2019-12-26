@@ -1,0 +1,125 @@
+{
+  "uid" : "76126536d75196c9",
+  "name" : "test_carcount",
+  "fullName" : "test_lately_more_search_car.Test_LatelySearchCar#test_carcount",
+  "historyId" : "cc3644b98cc749e0822e8abc1c2b5474",
+  "time" : {
+    "start" : 1561864173143,
+    "stop" : 1561864173149,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1561864172859,
+      "stop" : 1561864173072,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "列表最大车辆数",
+      "time" : {
+        "start" : 1561864173143,
+        "stop" : 1561864173149,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ac6ebf3d709057cf",
+      "name" : "log",
+      "source" : "ac6ebf3d709057cf.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d5bbe83a55e5526d",
+      "name" : "stdout",
+      "source" : "d5bbe83a55e5526d.txt",
+      "type" : "text/plain",
+      "size" : 288
+    }, {
+      "uid" : "c5a106f1828ad07b",
+      "name" : "stderr",
+      "source" : "c5a106f1828ad07b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1561864173149,
+      "stop" : 1561864173149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_lately_more_search_car"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_LatelySearchCar"
+  }, {
+    "name" : "host",
+    "value" : "RaymendeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "8382-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_lately_more_search_car"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76126536d75196c9.json",
+  "parameterValues" : [ ]
+}

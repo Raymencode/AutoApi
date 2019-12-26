@@ -4,21 +4,21 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert 200 == 100\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response",
+      "name" : "AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\n  - LBECFAHB2HZ520602\n  + LSGJA52H5DS249958",
       "children" : [ {
-        "name" : "TestRih.test_statuscode",
-        "uid" : "50b24cc1fdf3655a",
-        "parentUid" : "54978196b9be25378d64c8c166443b07",
+        "name" : "test_ftcar_license",
+        "uid" : "1b6a1d1faea029ac",
+        "parentUid" : "ab03821a930bfa319d16ecfb542e4d69",
         "status" : "failed",
         "time" : {
-          "start" : 1530785457628,
-          "stop" : 1530785457943,
-          "duration" : 315
+          "start" : 1561864173078,
+          "stop" : 1561864173081,
+          "duration" : 3
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "54978196b9be25378d64c8c166443b07"
+      "uid" : "ab03821a930bfa319d16ecfb542e4d69"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

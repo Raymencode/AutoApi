@@ -1,5 +1,5 @@
 {
-  "b7793194e290cec4c22245d86c1db378" : {
+  "af59a7cd8150c061859c1a1d28c41954" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,16 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6aae49cb5a571cfd",
+      "uid" : "559eac4d1084b058",
       "status" : "passed",
       "time" : {
-        "start" : 1530785457945,
-        "stop" : 1530785457946,
+        "start" : 1561864173074,
+        "stop" : 1561864173075,
         "duration" : 1
       }
     } ]
   },
-  "910e35b6b5741836c127a61c7f5d31c0" : {
+  "526594ac13ae38f9365d38f6a287ce61" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,16 +28,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "58228eb377ea8d91",
+      "uid" : "57fd4ded4f144a9b",
       "status" : "passed",
       "time" : {
-        "start" : 1530785457947,
-        "stop" : 1530785457948,
-        "duration" : 1
+        "start" : 1561864173140,
+        "stop" : 1561864173140,
+        "duration" : 0
       }
     } ]
   },
-  "110d5c04638e5a5dab53734eb337cd84" : {
+  "fd145394e95eac2ff36de5e1160e3dcd" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -47,17 +47,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "50b24cc1fdf3655a",
+      "uid" : "1b6a1d1faea029ac",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert 200 == 100\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = <Test_relenishinfohis.TestRih object at 0x10a479860>.response",
+      "statusDetails" : "AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\n  - LBECFAHB2HZ520602\n  + LSGJA52H5DS249958",
       "time" : {
-        "start" : 1530785457628,
-        "stop" : 1530785457943,
-        "duration" : 315
+        "start" : 1561864173078,
+        "stop" : 1561864173081,
+        "duration" : 3
       }
     } ]
   },
-  "297099252ac1d08d04afdf4aa4403dae" : {
+  "cc3644b98cc749e0822e8abc1c2b5474" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dc6ff78d5a01400",
+      "uid" : "76126536d75196c9",
       "status" : "passed",
       "time" : {
-        "start" : 1530785457949,
-        "stop" : 1530785457954,
-        "duration" : 5
+        "start" : 1561864173143,
+        "stop" : 1561864173149,
+        "duration" : 6
       }
     } ]
   }

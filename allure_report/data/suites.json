@@ -2,56 +2,60 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Test_relenishinfohis",
+    "name" : "test_lately_more_search_car",
     "children" : [ {
-      "name" : "TestRih.test_statuscode",
-      "uid" : "50b24cc1fdf3655a",
-      "parentUid" : "31a77c72c9f31333e0e03e8e5384ee65",
-      "status" : "failed",
-      "time" : {
-        "start" : 1530785457628,
-        "stop" : 1530785457943,
-        "duration" : 315
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TestRih.test_ftcar_license",
-      "uid" : "6aae49cb5a571cfd",
-      "parentUid" : "31a77c72c9f31333e0e03e8e5384ee65",
-      "status" : "passed",
-      "time" : {
-        "start" : 1530785457945,
-        "stop" : 1530785457946,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TestRih.test_ftcar_lastime_isnotNUll",
-      "uid" : "58228eb377ea8d91",
-      "parentUid" : "31a77c72c9f31333e0e03e8e5384ee65",
-      "status" : "passed",
-      "time" : {
-        "start" : 1530785457947,
-        "stop" : 1530785457948,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TestRih.test_carcount",
-      "uid" : "dc6ff78d5a01400",
-      "parentUid" : "31a77c72c9f31333e0e03e8e5384ee65",
-      "status" : "passed",
-      "time" : {
-        "start" : 1530785457949,
-        "stop" : 1530785457954,
-        "duration" : 5
-      },
-      "flaky" : false,
-      "parameters" : [ ]
+      "name" : "Test_LatelySearchCar",
+      "children" : [ {
+        "name" : "test_statuscode",
+        "uid" : "559eac4d1084b058",
+        "parentUid" : "394ede472d19afadbd0656169150f2f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561864173074,
+          "stop" : 1561864173075,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ftcar_license",
+        "uid" : "1b6a1d1faea029ac",
+        "parentUid" : "394ede472d19afadbd0656169150f2f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1561864173078,
+          "stop" : 1561864173081,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ftcar_lastime_isnotnull",
+        "uid" : "57fd4ded4f144a9b",
+        "parentUid" : "394ede472d19afadbd0656169150f2f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561864173140,
+          "stop" : 1561864173140,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_carcount",
+        "uid" : "76126536d75196c9",
+        "parentUid" : "394ede472d19afadbd0656169150f2f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561864173143,
+          "stop" : 1561864173149,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "394ede472d19afadbd0656169150f2f4"
     } ],
-    "uid" : "31a77c72c9f31333e0e03e8e5384ee65"
+    "uid" : "46dcf1d61b0dca0b64fc62d218287be8"
   } ]
 }

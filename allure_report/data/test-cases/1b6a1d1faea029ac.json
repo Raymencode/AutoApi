@@ -1,0 +1,135 @@
+{
+  "uid" : "1b6a1d1faea029ac",
+  "name" : "test_ftcar_license",
+  "fullName" : "test_lately_more_search_car.Test_LatelySearchCar#test_ftcar_license",
+  "historyId" : "fd145394e95eac2ff36de5e1160e3dcd",
+  "time" : {
+    "start" : 1561864173078,
+    "stop" : 1561864173081,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\n  - LBECFAHB2HZ520602\n  + LSGJA52H5DS249958",
+  "statusTrace" : "self = <test_lately_more_search_car.Test_LatelySearchCar object at 0x10eaf4e10>\n\n    @allure.step('第一辆车的车架号')\n    def test_ftcar_license(self):\n        # 验证第一个车牌号是否正确\n>       assert self.response.json()[\"data\"][0][\"frame_no\"] == \"LSGJA52H5DS249958\"\nE       AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\nE         - LBECFAHB2HZ520602\nE         + LSGJA52H5DS249958\n\ntest_lately_more_search_car.py:68: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1561864172859,
+      "stop" : 1561864173072,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\n  - LBECFAHB2HZ520602\n  + LSGJA52H5DS249958",
+    "statusTrace" : "self = <test_lately_more_search_car.Test_LatelySearchCar object at 0x10eaf4e10>\n\n    @allure.step('第一辆车的车架号')\n    def test_ftcar_license(self):\n        # 验证第一个车牌号是否正确\n>       assert self.response.json()[\"data\"][0][\"frame_no\"] == \"LSGJA52H5DS249958\"\nE       AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\nE         - LBECFAHB2HZ520602\nE         + LSGJA52H5DS249958\n\ntest_lately_more_search_car.py:68: AssertionError",
+    "steps" : [ {
+      "name" : "第一辆车的车架号",
+      "time" : {
+        "start" : 1561864173078,
+        "stop" : 1561864173079,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'LBECFAHB2HZ520602' == 'LSGJA52H5DS249958'\n  - LBECFAHB2HZ520602\n  + LSGJA52H5DS249958\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.6/site-packages/allure_commons/_allure.py\", line 141, in impl\n    return func(*a, **kw)\n  File \"/Users/raymen/PycharmProjects/apiproject/testcase/test_lately_more_search_car.py\", line 68, in test_ftcar_license\n    assert self.response.json()[\"data\"][0][\"frame_no\"] == \"LSGJA52H5DS249958\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a4ee2dd6cd41be3d",
+      "name" : "log",
+      "source" : "a4ee2dd6cd41be3d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "bd870f4cbffc221",
+      "name" : "stdout",
+      "source" : "bd870f4cbffc221.txt",
+      "type" : "text/plain",
+      "size" : 41
+    }, {
+      "uid" : "594d86dd8ba5eda",
+      "name" : "stderr",
+      "source" : "594d86dd8ba5eda.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1561864173149,
+      "stop" : 1561864173149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_lately_more_search_car"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_LatelySearchCar"
+  }, {
+    "name" : "host",
+    "value" : "RaymendeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "8382-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_lately_more_search_car"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1b6a1d1faea029ac.json",
+  "parameterValues" : [ ]
+}
